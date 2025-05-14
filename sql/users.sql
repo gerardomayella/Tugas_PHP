@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS tugasphp;
+USE tugasphp;
+
+CREATE TABLE users (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    username VARCHAR(100) NOT NULL,
+    password VARCHAR(130) NOT NULL,
+    PRIMARY KEY (id)
+);
